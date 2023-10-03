@@ -1,0 +1,78 @@
+body {
+    background-image: url('./bg-hw.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    margin: 0;
+    background-color: #1a1a1a; /* Fondo gris oscuro */
+    color: #ffffff;
+    font-size: 16px;
+    padding: 0 10px;
+}
+.container{
+    width: 90%;
+    text-align: center;
+}
+h1{
+    font-family: 'Creepster', cursive;
+    font-size: 3em;
+    color: #da21ff;
+    text-shadow:  0 0 20px #da21ff, 0 0 40px #da21ff;
+    letter-spacing: 2px;
+}
+h2{
+    font-family: 'Creepster', cursive;
+    font-size: 4em;
+    margin-top: -1em;
+    color: #ffce21;
+    text-shadow:  0 0 20px #f58718, 0 0 40px #f58718;
+    letter-spacing: 2px;
+}
+.name{
+    font-family: 'Nosifer', cursive;
+    font-size: 2em;
+}
+.invitation-card {
+    background-color: #3f14076b; /* Tarjeta de color naranja */
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0 0 20px #f58718, 0 0 40px #f58718;
+    border: solid 2px #f58718;
+    border-radius: 15px;
+}
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+    color: #f58718;
+}
+.descargar, .invitar{
+    width: 100%;
+    font-size: 1em;
+    padding: 10px 0;
+    margin-top: 1em;
+    background-color: #f58718;
+    border: none;
+    border-radius: 5px;
+}
+.hide{
+    opacity: 0;
+}
+.show{
+    opacity: 1;
+}
