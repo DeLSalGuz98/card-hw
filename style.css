@@ -40,8 +40,9 @@ h3{
     margin: 0;
     font-family: 'Nosifer', cursive;
     font-size: 2em;
-    color: #fff;
-    text-shadow: 0 0 20px #000,;
+    color: #f58718;
+    text-shadow: 0 0 20px #000;
+
 }
 .invitation-card {
     background-color: #3f14076b; /* Tarjeta de color naranja */
