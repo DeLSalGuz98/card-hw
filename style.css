@@ -14,6 +14,7 @@ body {
     color: #ffffff;
     font-size: 16px;
     padding: 0 10px;
+    font-family: 'Permanent Marker', cursive;
 }
 .container{
     width: 90%;
@@ -39,7 +40,7 @@ h3{
     margin: 0;
     font-family: 'Nosifer', cursive;
     font-size: 2em;
-    color: #d00104;
+    color: #fff;
     text-shadow: 0 0 20px #000,;
 }
 .invitation-card {
@@ -53,7 +54,7 @@ h3{
 }
 
 p {
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 10px;
     text-shadow: 0 0 10px #000;
 }
@@ -63,8 +64,15 @@ p {
 }
 .time{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.time > p{
+    font-size: .9em;
+    line-height: 20px;
+    margin: 0;
+    letter-spacing: .5px;
 }
 .times{
     display: flex;
@@ -77,6 +85,9 @@ p {
     border: solid 1px #fff;
     margin: 0 2em;
     height: 3em;
+}
+strong{
+    color: #f58718;
 }
 .numberTime {
     font-weight: bold;
@@ -117,7 +128,8 @@ p {
 }
     
 .foot{
-    font-size: .7em;
+    font-size: .8em;
+    letter-spacing: 1px;
 }
 @media (min-width: 1024px) {
     .container{

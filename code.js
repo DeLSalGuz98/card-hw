@@ -22,25 +22,18 @@ btnInvitar.addEventListener('click',()=>{
         <h2>ZANQA FEST PARTY</h2>
         <div class="invitation-card">
             <h3>${person}</h3>
-            <p>Ven y unete a una noche de diversion</p>
+            <p calss="slog">Ven y unete a una noche de diversion</p>
             <div class="time">
-                <div class="times">
-                    <span class="numberTime">10</span>
-                    <span class="timeComp">pm</span>
-                </div>
-                <span class="line"></span>
-                <div class="times">
-                    <span class="numberTime">31</span>
-                    <span class="timeComp"> Oct.</span>
-                </div>
+                <p><strong>Fecha:</strong> 31 de octubre</p>
+                <p><strong>Hora:</strong> 10:00 pm</p>
+                <p><strong>Lugar:</strong> Urb. Bancopata - F8 (al costado de Electro)</p>
             </div>
-            <p class="dir">Urb. Bancopata F-8</p>
             <div class="premioCont">
                 <img src="./valentine-premio.webp" width="100" alt="premio">
                 <p> Premio al mejor disfraz</p>
             </div>
         </div>
-        <p class="foot">costo de la entrada S/. 10.00, incluye tu bebida</p>
+        <p class="foot">costo de la entrada S/. 10.00, incluye un shot o tu sal de andrews</p>
     `
     containerCard.innerHTML = textCard
     descargarBtn.classList.replace('hide', 'show')
