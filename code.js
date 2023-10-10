@@ -6,17 +6,42 @@ console.log(descargarBtn.classList[1])
 btnInvitar.addEventListener('click',()=>{
     let person
     person = prompt("Ingrese el nombre de la persona que quiere invitar")
-    let textCard = `<h1>Halloween</h1>
-    <h2>ZANQHA FEST PARTY</h2>
-    <div class="invitation-card ">
-    <p class="name">${person}</p>
-    <p>Ven y únete a nosotros para una noche llena de sustos y diversión.</p>
-    <p><strong>Fecha:</strong> 31 de octubre</p>
-    <p><strong>Hora:</strong> 10:00 pm</p>
-    <p><strong>Lugar:</strong> Urb. Bancopata - F8</p>
-    <p>¡No olvides vestirte con tu mejor disfraz de Halloween!</p>
-    <p>Valor de la entrada S/.10.00, incluye un shot + un sal de andrews</p>
-    </div>`
+    // let textCard = `<h1>Halloween</h1>
+    // <h2>ZANQHA FEST PARTY</h2>
+    // <div class="invitation-card ">
+    // <p class="name">${person}</p>
+    // <p>Ven y únete a nosotros para una noche llena de sustos y diversión.</p>
+    // <p><strong>Fecha:</strong> 31 de octubre</p>
+    // <p><strong>Hora:</strong> 10:00 pm</p>
+    // <p><strong>Lugar:</strong> Urb. Bancopata - F8</p>
+    // <p>¡No olvides vestirte con tu mejor disfraz de Halloween!</p>
+    // <p>Valor de la entrada S/.10.00, incluye un shot + un sal de andrews</p>
+    // </div>`
+    let textCard = `
+    <h1>Halloween</h1>
+        <h2>ZANQA FEST PARTY</h2>
+        <div class="invitation-card">
+            <h3>${person}</h3>
+            <p>Ven y unete a una noche de diversion</p>
+            <div class="time">
+                <div class="times">
+                    <span class="numberTime">10</span>
+                    <span class="timeComp">pm</span>
+                </div>
+                <span class="line"></span>
+                <div class="times">
+                    <span class="numberTime">31</span>
+                    <span class="timeComp"> Oct.</span>
+                </div>
+            </div>
+            <p class="dir">Urb. Bancopata F-8</p>
+            <div class="premioCont">
+                <img src="./valentine-premio.webp" width="100" alt="premio">
+                <p> Premio al mejor disfraz</p>
+            </div>
+        </div>
+        <p class="foot">costo de la entrada S/. 10.00, incluye tu bebida</p>
+    `
     containerCard.innerHTML = textCard
     descargarBtn.classList.replace('hide', 'show')
     console.log(descargarBtn.classList)

@@ -21,22 +21,26 @@ body {
 }
 h1{
     font-family: 'Creepster', cursive;
-    font-size: 3em;
+    font-size: 4.5em;
     color: #da21ff;
     text-shadow: 0 0 20px #000000;
     letter-spacing: 2px;
+    line-height: 0;
 }
 h2{
     font-family: 'Creepster', cursive;
-    font-size: 4em;
-    margin-top: -1em;
+    font-size: 1.5em;
+    margin-top: -0.5em;
     color: #ffce21;
     text-shadow:  0 0 20px #f58718, 0 0 40px #f58718;
     letter-spacing: 2px;
 }
-.name{
+h3{
+    margin: 0;
     font-family: 'Nosifer', cursive;
     font-size: 2em;
+    color: #d00104;
+    text-shadow: 0 0 20px #000,;
 }
 .invitation-card {
     background-color: #3f14076b; /* Tarjeta de color naranja */
@@ -47,34 +51,76 @@ h2{
     border: solid 2px #f58718;
     border-radius: 15px;
 }
-h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
 
 p {
     font-size: 18px;
     margin-bottom: 10px;
+    text-shadow: 0 0 10px #000;
 }
-
-strong {
+.dir{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.times{
+    display: flex;
+    align-items: center;
+}
+.timeComp{
+    display: flex;
+}
+.line{
+    border: solid 1px #fff;
+    margin: 0 2em;
+    height: 3em;
+}
+.numberTime {
     font-weight: bold;
     color: #f58718;
+    text-shadow: 0 0 10px  #f58718, 0 0 20px  #f58718;
+    font-size: 3.5em;
+}
+.timeComp{
+    font-weight: bold;
+    margin-left: .3em;
 }
 .descargar, .invitar{
     width: 100%;
     font-size: 1em;
     padding: 10px 0;
-    margin-top: 1em;
+    margin-top: .5em;
     background-color: #f58718;
     border: none;
     border-radius: 5px;
 }
 .hide{
-    opacity: 0;
+    display: none;
 }
 .show{
-    opacity: 1;
+    display: inline-block;
+}
+.premioCont{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.premioCont > img{
+    width: 90px;
+    filter: drop-shadow(0 0 10px #f58718)
+}
+.premioCont > p{
+    font-family: 'Eater', cursive;
+}
+    
+.foot{
+    font-size: .7em;
+}
+.extentionCont{
+
 }
 @media (min-width: 1024px) {
     .container{
